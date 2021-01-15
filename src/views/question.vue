@@ -7,7 +7,7 @@
 	<!-- 第一题 -->
 	<div :class="index == 1 ? 'question-message-block active' : 'remove question-message-block'" v-show="!isShow">
 		<div :class="['white','message-wrap','left', {'fade-0': index == 1}]">
-			<p>嗨，<span>{{ userInfo.nickName }}</span>童鞋，你所在的班级是<br>简七<span>《{{ relatedProduct.name }}》</span></p>
+			<p>嗨，<span>{{ userInfo.nickName }}</span>童鞋，你所在的班级是<br>闪云<span>《{{ relatedProduct.name }}》</span></p>
 		</div>
 		<div :class="['white','message-wrap','left', {'fade-1': index == 1}]">
 			<p>接下来我们来花10秒钟相互认识一下吧~<span><br>我是女生，你呢？</span> </p>
